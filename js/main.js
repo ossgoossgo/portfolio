@@ -56,8 +56,11 @@ async function cacheProjectsMeta() {
   projectsMeta = zhData.projects;
 }
 
-// ===== Parallax =====
+// ===== Parallax (desktop only) =====
 function initParallax() {
+  // Skip on mobile/tablet to prevent scroll jank
+  if (window.innerWidth <= 768) return;
+
   var portrait = document.querySelector('.hero-portrait');
   var hero = document.querySelector('.hero');
   if (!portrait || !hero) return;
