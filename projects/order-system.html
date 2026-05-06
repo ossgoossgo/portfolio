@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>接單系統：店家 App | Portfolio</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/project.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-container">
+      <a href="../index.html" class="nav-logo">Ossgo Wang</a>
+      <div class="nav-links">
+        <a href="../index.html#works" data-i18n="nav.works">作品</a>
+        <button class="lang-toggle" id="langToggle">EN</button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="project-page">
+    <div class="container">
+      <a href="../index.html#works" class="back-link" data-i18n="project.back">← 返回作品集</a>
+
+      <header class="project-header">
+        <h1 data-i18n="projects.order-system.name">接單系統：店家 App</h1>
+        <div class="project-meta">
+          <span class="project-year">2021</span>
+          <div class="project-tech-tags">
+            <span class="work-card-tag">Flutter</span>
+            <span class="work-card-tag">Bluetooth</span>
+            <span class="work-card-tag">Printer</span>
+          </div>
+        </div>
+      </header>
+
+      <section class="project-gallery">
+        <div class="gallery-grid">
+          <img src="../assets/images/order-system-1.png" alt="登入頁" loading="lazy" onclick="openLightbox(this)">
+          <img src="../assets/images/order-system-2.png" alt="訂單列表" loading="lazy" onclick="openLightbox(this)">
+          <img src="../assets/images/order-system-3.png" alt="新訂單" loading="lazy" onclick="openLightbox(this)">
+          <img src="../assets/images/order-system-4.png" alt="訂單確認" loading="lazy" onclick="openLightbox(this)">
+        </div>
+      </section>
+
+      <section class="project-description">
+        <p data-i18n="projects.order-system.description">2021 年初上線的店家外帶接單管理 App，運行於 Lenovo 平板。支援訂單接收與狀態追蹤（待處理、準備中、待取餐、已取餐、已取消）、聲音與視覺新單通知、藍牙印表機自動出單、營業時間管理等完整功能。</p>
+      </section>
+
+      <section class="project-features">
+        <h3 data-i18n="project.features">功能特色</h3>
+        <ul>
+          <li>外帶/內用訂單管理</li>
+          <li>訂單狀態追蹤</li>
+          <li>新單聲音通知</li>
+          <li>藍牙印表機出單</li>
+          <li>訂單延遲/聯絡客戶/售完/取消</li>
+          <li>營業時間管理</li>
+          <li>歷史訂單查詢</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-nav lightbox-prev" id="lightboxPrev" ><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg></button>
+    <img src="" alt="" id="lightboxImg">
+    <button class="lightbox-nav lightbox-next" id="lightboxNext" ><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 6 15 12 9 18"/></svg></button>
+    <span class="lightbox-counter" id="lightboxCounter"></span>
+  </div>
+
+  <script src="../js/i18n.js"></script>
+  <script src="../js/project.js"></script>
+</body>
+</html>

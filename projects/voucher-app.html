@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>票券 App | Portfolio</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/project.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-container">
+      <a href="../index.html" class="nav-logo">Ossgo Wang</a>
+      <div class="nav-links">
+        <a href="../index.html#works" data-i18n="nav.works">作品</a>
+        <button class="lang-toggle" id="langToggle">EN</button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="project-page">
+    <div class="container">
+      <a href="../index.html#works" class="back-link" data-i18n="project.back">← 返回作品集</a>
+
+      <header class="project-header">
+        <h1 data-i18n="projects.voucher-app.name">票券 App</h1>
+        <div class="project-meta">
+          <span class="project-year">2023</span>
+          <div class="project-tech-tags">
+            <span class="work-card-tag">Flutter</span>
+            <span class="work-card-tag">QR Code</span>
+            <span class="work-card-tag">Payment</span>
+          </div>
+        </div>
+      </header>
+
+      <section class="project-gallery">
+        <div class="gallery-grid">
+          <img src="../assets/images/voucher-app-1.png" alt="App 總覽" loading="lazy" onclick="openLightbox(this)">
+          <img src="../assets/images/voucher-app-2.png" alt="活動首頁" loading="lazy" onclick="openLightbox(this)">
+          <img src="../assets/images/voucher-app-3.png" alt="票券購買" loading="lazy" onclick="openLightbox(this)">
+          <img src="../assets/images/voucher-app-4.png" alt="驗票掃描" loading="lazy" onclick="openLightbox(this)">
+        </div>
+      </section>
+
+      <section class="project-description">
+        <p data-i18n="projects.voucher-app.description">2023 年 10 月啟動、12 月送審的票券管理應用。提供活動瀏覽、票券購買結帳、QR Code 票券使用、工作人員驗票掃描與掃描紀錄查詢等完整流程。</p>
+      </section>
+
+      <section class="project-features">
+        <h3 data-i18n="project.features">功能特色</h3>
+        <ul>
+          <li>引導頁與登入註冊</li>
+          <li>活動首頁與詳情</li>
+          <li>票券購買與結帳</li>
+          <li>QR Code 票券使用</li>
+          <li>工作人員驗票掃描</li>
+          <li>掃描紀錄查詢</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-nav lightbox-prev" id="lightboxPrev" ><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg></button>
+    <img src="" alt="" id="lightboxImg">
+    <button class="lightbox-nav lightbox-next" id="lightboxNext" ><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 6 15 12 9 18"/></svg></button>
+    <span class="lightbox-counter" id="lightboxCounter"></span>
+  </div>
+
+  <script src="../js/i18n.js"></script>
+  <script src="../js/project.js"></script>
+</body>
+</html>

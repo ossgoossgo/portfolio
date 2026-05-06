@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CryptoSignal 加密貨幣訊號 | Ossgo Wang</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/project.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-container">
+      <a href="../index.html" class="nav-logo">Ossgo Wang</a>
+      <div class="nav-links">
+        <a href="../index.html#works" data-i18n="nav.works">作品</a>
+        <button class="lang-toggle" id="langToggle">EN</button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="project-page">
+    <div class="container">
+      <a href="../index.html#works" class="back-link" data-i18n="project.back">← 返回作品集</a>
+
+      <header class="project-header">
+        <h1 data-i18n="projects.crypto-signal.name">CryptoSignal 加密貨幣訊號</h1>
+        <div class="project-meta">
+          <span class="project-year">2026</span>
+          <div class="project-tech-tags">
+            <span class="work-card-tag">Next.js</span>
+            <span class="work-card-tag">TypeScript</span>
+            <span class="work-card-tag">Web Push</span>
+          </div>
+        </div>
+      </header>
+
+      <section class="project-gallery">
+        <div class="gallery-grid">
+          <img src="../assets/images/crypto-signal-2.png" alt="K 線圖表" loading="lazy" onclick="openLightbox(this)">
+          <img src="../assets/images/crypto-signal-1.png" alt="策略總覽" loading="lazy" onclick="openLightbox(this)">
+        </div>
+      </section>
+
+      <section class="project-description">
+        <p data-i18n="projects.crypto-signal.description">基於 Next.js + TypeScript 的即時加密貨幣交易訊號應用，監控 BTC 和 ETH 的價格走勢，透過多種策略自動產生買賣建議。</p>
+      </section>
+
+      <section class="project-features">
+        <h3 data-i18n="project.features">功能特色</h3>
+        <ul>
+          <li>K 線圖表附帶訊號標記與指標明細</li>
+          <li>即時推播通知，可按策略訂閱 Web Push</li>
+          <li>瀏覽器內即時音效警報</li>
+          <li>訊號歷史與勝率統計</li>
+          <li>視覺化策略總覽卡片</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-nav lightbox-prev" id="lightboxPrev"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg></button>
+    <img src="" alt="" id="lightboxImg">
+    <button class="lightbox-nav lightbox-next" id="lightboxNext"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 6 15 12 9 18"/></svg></button>
+    <span class="lightbox-counter" id="lightboxCounter"></span>
+  </div>
+
+  <script src="../js/i18n.js"></script>
+  <script src="../js/project.js"></script>
+</body>
+</html>

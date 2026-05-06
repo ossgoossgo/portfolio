@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Full-Stack Freelance Engineer</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Nav -->
+  <nav class="nav" id="nav">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">Ossgo Wang</a>
+      <button class="nav-hamburger" id="navHamburger" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-links">
+        <a href="#about" data-i18n="nav.about">關於我</a>
+        <a href="#skills" data-i18n="nav.skills">技能</a>
+        <a href="#works" data-i18n="nav.works">作品</a>
+        <a href="#contact" data-i18n="nav.contact">聯絡</a>
+        <button class="lang-toggle" id="langToggle">EN</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 data-i18n="hero.name">Ossgo Wang</h1>
+        <p class="hero-title" data-i18n="hero.title">全端工程師</p>
+        <p class="hero-tagline" data-i18n="hero.tagline">打造行動與網頁應用的完整體驗</p>
+        <a href="#works" class="hero-cta" data-i18n="works.title">作品集</a>
+      </div>
+      <div class="hero-portrait">
+        <img src="assets/images/hero-portrait.png" alt="Ossgo Wang">
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title" data-i18n="about.title">關於我</h2>
+      <div class="about-content">
+        <img src="assets/images/profile.png" alt="Profile" class="about-photo">
+        <p class="about-text" data-i18n="about.text">嗨，我是 Ossgo，一位擁有超過 15 年經驗的全端工程師。從 2009 年開始接觸 iOS 開發，一路走來累積了 Objective-C、Swift、Flutter、React Native、Next.js 等多元的技術經驗，也參與過後端 API 的開發工作。這些年做過的專案類型很廣——從藍牙健身設備、AI 護理監控、到庫存管理與銷售前台系統，涵蓋多種產業與應用場景。近期也將 AI 工具融入開發流程，搭配 Claude Code 提升工作效率與程式品質。自 2019 年起全面轉為遠端工作，配合過多家公司與團隊，熟悉 Scrum 敏捷開發流程，擅長非同步溝通與自主管理。目前開放接案與遠端全職機會，如果你有想法想聊聊，歡迎隨時聯繫！</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section" id="skills">
+    <div class="container">
+      <h2 class="section-title" data-i18n="skills.title">技能</h2>
+      <div class="skills-grid" id="skillsGrid"></div>
+    </div>
+  </section>
+
+  <!-- Works -->
+  <section class="section" id="works">
+    <div class="container">
+      <h2 class="section-title" data-i18n="works.title">作品集</h2>
+      <div class="filter-bar" id="filterBar"></div>
+      <div class="works-grid" id="worksGrid"></div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section" id="contact">
+    <div class="container contact-section">
+      <h2 class="section-title" data-i18n="contact.title">聯絡我</h2>
+      <p class="contact-cta" data-i18n="contact.cta">有合作想法？歡迎聯繫</p>
+      <a href="mailto:ossgowang@gmail.com" class="contact-btn" id="contactEmail" data-i18n="contact.email">ossgowang@gmail.com</a>
+    </div>
+  </section>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

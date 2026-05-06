@@ -1,0 +1,513 @@
+{
+  "nav": {
+    "about": "關於我",
+    "skills": "技能",
+    "works": "作品",
+    "contact": "聯絡"
+  },
+  "hero": {
+    "name": "Ossgo Wang",
+    "title": "全端工程師",
+    "tagline": "打造行動與網頁應用的完整體驗"
+  },
+  "about": {
+    "title": "關於我",
+    "text": "嗨，我是 Ossgo，一位擁有超過 15 年經驗的全端工程師。從 2009 年開始接觸 iOS 開發，一路走來累積了 Objective-C、Swift、Flutter、React Native、Next.js 等多元的技術經驗，也參與過後端 API 的開發工作。\n\n這些年做過的專案類型很廣——從藍牙健身設備、AI 護理監控、到庫存管理與銷售前台系統，涵蓋多種產業與應用場景。近期也將 AI 工具融入開發流程，搭配 Claude Code 提升工作效率與程式品質。自 2019 年起全面轉為遠端工作，配合過多家公司與團隊，熟悉 Scrum 敏捷開發流程，擅長非同步溝通與自主管理。目前開放接案與遠端全職機會，如果你有想法想聊聊，歡迎隨時聯繫！"
+  },
+  "skills": {
+    "title": "技能",
+    "categories": {
+      "mobile": {
+        "name": "行動應用",
+        "items": [
+          "iOS (Objective-C)",
+          "iOS (Swift)",
+          "Flutter (Dart)",
+          "React Native",
+          "Android"
+        ]
+      },
+      "web": {
+        "name": "網頁開發",
+        "items": [
+          "HTML / CSS / JS",
+          "React / Next.js",
+          "Node.js",
+          "MySQL / PostgreSQL / MongoDB",
+          "金流串接 (Line Pay / 信用卡 / Stripe)",
+          "物流串接 (綠界)"
+        ]
+      },
+      "other": {
+        "name": "其他技術",
+        "items": [
+          "Bluetooth / BLE",
+          "IoT",
+          "Cocos2D"
+        ]
+      }
+    }
+  },
+  "works": {
+    "title": "作品集",
+    "filters": {
+      "all": "全部",
+      "mobile": "行動應用",
+      "web": "網站",
+      "game": "遊戲"
+    }
+  },
+  "contact": {
+    "title": "聯絡我",
+    "cta": "有任何想法，歡迎聯繫",
+    "email": "ossgowang@gmail.com"
+  },
+  "project": {
+    "back": "← 返回作品集",
+    "features": "功能特色"
+  },
+  "projects": {
+    "danei-master": {
+      "name": "大內高手 門鎖專家",
+      "year": "2025",
+      "tech": [
+        "Flutter",
+        "LINE Login",
+        "Push Notification"
+      ],
+      "category": "mobile",
+      "featured": true,
+      "short": "專為鎖匠設計的派工管理 App，一鍵接單、安排施工、即時掌握進度。",
+      "description": "「大內高手 門鎖專家」是一款專為鎖匠設計的派工應用程式。透過 LINE 登入，鎖匠師傅即時接收系統分配的工單通知，可立即安排是否接單、施工時間、並查閱施工內容與歷史紀錄。施工完成後，客戶可直接在 App 內進行驗收確認，提升服務效率。",
+      "features": [
+        "LINE 快速登入",
+        "即時派單通知與施工提醒",
+        "施工排程與紀錄管理",
+        "客戶驗收流程整合"
+      ],
+      "links": {
+        "playstore": "https://play.google.com/store/apps/details?id=com.danei343434.daneimaster"
+      },
+      "images": [
+        "danei-history.jpg",
+        "danei-orders.jpg",
+        "danei-pending.jpg",
+        "danei-schedule.jpg",
+        "danei-notification.webp",
+        "danei-verify.webp"
+      ]
+    },
+    "beverage-pos": {
+      "name": "飲料店結帳系統",
+      "year": "2024",
+      "tech": [
+        "Flutter",
+        "Line Pay",
+        "信用卡支付"
+      ],
+      "category": "mobile",
+      "featured": true,
+      "short": "飲料店 POS 系統，支援信用卡與 Line Pay，雙螢幕顯示。",
+      "description": "使用 Flutter 開發的飲料店線上支付結帳系統。支援信用卡支付 (Stripe)、Google Pay、Apple Pay 及 Line Pay，可設定閒置時輪播廣告。支援雙螢幕顯示：店內螢幕輸入金額，店外螢幕顯示結帳 QR code。支援多國語系。",
+      "features": [
+        "信用卡支付",
+        "Line Pay 整合",
+        "閒置輪播廣告",
+        "雙螢幕支援",
+        "多國語系"
+      ],
+      "links": {},
+      "images": [
+        "beverage-pay.png",
+        "beverage-lang.png",
+        "beverage-records.png"
+      ]
+    },
+    "laundry-app": {
+      "name": "洗衣 App",
+      "year": "2024",
+      "tech": [
+        "Flutter",
+        "Map API",
+        "QR Code"
+      ],
+      "category": "mobile",
+      "featured": true,
+      "short": "地圖搜尋洗衣店、即時機器狀態、線上購票、掃碼啟動。",
+      "description": "洗衣店 App，可地圖搜尋洗衣店、顯示店家資料與洗衣烘衣機狀態、洗衣烘衣完成通知、線上購買票券、掃描設備啟用機器。",
+      "features": [
+        "地圖搜尋洗衣店",
+        "洗衣烘衣機狀態顯示",
+        "完成通知",
+        "線上購買票券",
+        "掃描 QR Code 啟用機器"
+      ],
+      "links": {},
+      "images": [
+        "laundry-screenshot1.jpg",
+        "laundry-start.png",
+        "laundry-search.png",
+        "laundry-screenshot2.jpg"
+      ]
+    },
+    "postcard-app": {
+      "name": "明信片寄送 App",
+      "year": "2023",
+      "tech": [
+        "Flutter",
+        "Map API",
+        "Location",
+        "QR Code"
+      ],
+      "category": "mobile",
+      "featured": true,
+      "short": "結合地圖探索與景點解鎖的明信片寄送應用，可購買設計師明信片並實體寄送。",
+      "description": "2022-2023 年參與新創團隊開發的明信片寄送應用。使用者可在商城購買設計師明信片、透過到達特定地點或掃描 QR Code 解鎖景點明信片、自訂明信片內容後實體印刷寄送。結合地圖探索、收藏機制與社交功能。",
+      "features": [
+        "商城購買設計師明信片",
+        "地圖景點解鎖",
+        "QR Code 掃描解鎖",
+        "明信片編輯器",
+        "購物車與結帳",
+        "推播通知"
+      ],
+      "links": {
+        "playstore": "https://play.google.com/store/apps/details?id=app.postory.postory&hl=zh-TW",
+        "appstore": "https://apps.apple.com/tw/app/postory/id1584916129"
+      },
+      "images": [
+        "postcard-shop.png",
+        "postcard-hero.png",
+        "postcard-unlock.png"
+      ],
+      "videos": [
+        "demo_hero.mp4",
+        "demo_search_bar.mp4"
+      ]
+    },
+    "voucher-app": {
+      "name": "票券 App",
+      "year": "2023",
+      "tech": [
+        "Flutter",
+        "QR Code",
+        "Payment"
+      ],
+      "category": "mobile",
+      "featured": false,
+      "short": "活動票券購買、管理與使用的行動應用，含 QR Code 驗票功能。",
+      "description": "票券管理應用。提供活動瀏覽、票券購買結帳、QR Code 票券使用、工作人員驗票掃描與掃描紀錄查詢等完整流程。",
+      "features": [
+        "引導頁與登入註冊",
+        "活動首頁與詳情",
+        "票券購買與結帳",
+        "QR Code 票券使用",
+        "工作人員驗票掃描",
+        "掃描紀錄查詢"
+      ],
+      "links": {},
+      "images": [
+        "voucher-app-1.png",
+        "voucher-app-2.png",
+        "voucher-app-3.png",
+        "voucher-app-4.png"
+      ]
+    },
+    "cloud-nursing": {
+      "name": "雲端護理站 App",
+      "year": "2022",
+      "tech": [
+        "Flutter",
+        "AI",
+        "IoT"
+      ],
+      "category": "mobile",
+      "featured": false,
+      "short": "AI 雲端護理站，即時監測病患生命徵象與安全狀態。",
+      "description": "2022 年開發的 AI 雲端護理站應用。透過熱成像技術即時監測病患狀態，提供跌倒偵測、離床警報、體溫/心率/呼吸異常通知。支援區域監控、歷史查詢、日常作息分析、多國語系切換等功能。",
+      "features": [
+        "區域監控（宮格/列表切換）",
+        "即時病患狀態與熱成像",
+        "1 小時歷史曲線圖",
+        "跌倒/離床/生命徵象警報",
+        "每床獨立通知設定",
+        "日常作息分析",
+        "多國語系"
+      ],
+      "links": {},
+      "images": [
+        "cloud-nursing-1.png",
+        "cloud-nursing-2.jpeg",
+        "cloud-nursing-3.jpeg",
+        "cloud-nursing-4.jpeg"
+      ]
+    },
+    "card-editor": {
+      "name": "卡片編輯 App",
+      "year": "2021",
+      "tech": [
+        "Flutter",
+        "Canvas"
+      ],
+      "category": "mobile",
+      "featured": false,
+      "short": "學齡前字卡 DIY 編輯工具，整合至 joyphoto 列印 App。",
+      "description": "字卡編輯工具，基於蒙特梭利三階段學習法（命名、辨識、記憶）。提供預設模板與空白模板，支援文字、圖片、貼紙、形狀等物件的自由編輯，可同步編輯多張卡片、複製貼上、對齊參考線等進階功能。",
+      "features": [
+        "多種預設模板",
+        "文字/圖片/貼紙/形狀物件",
+        "注音字體支援",
+        "同步編輯多張卡片",
+        "複製物件/卡片",
+        "對齊參考線"
+      ],
+      "links": {},
+      "images": [
+        "card-editor-1.png",
+        "card-editor-2.png",
+        "card-editor-3.png",
+        "card-editor-4.png"
+      ]
+    },
+    "order-system": {
+      "name": "接單系統：店家 App",
+      "year": "2021",
+      "tech": [
+        "Flutter",
+        "Bluetooth",
+        "Printer"
+      ],
+      "category": "mobile",
+      "featured": false,
+      "short": "外帶接單管理系統，含藍牙印表機出單與訂單狀態追蹤。",
+      "description": "2021 年初上線的店家外帶接單管理 App，運行於 Lenovo 平板。支援訂單接收與狀態追蹤（待處理、準備中、待取餐、已取餐、已取消）、聲音與視覺新單通知、藍牙印表機自動出單、營業時間管理等完整功能。",
+      "features": [
+        "外帶/內用訂單管理",
+        "訂單狀態追蹤",
+        "新單聲音通知",
+        "藍牙印表機出單",
+        "訂單延遲/聯絡客戶/售完/取消",
+        "營業時間管理",
+        "歷史訂單查詢"
+      ],
+      "links": {},
+      "images": [
+        "order-system-1.png",
+        "order-system-2.png",
+        "order-system-3.png",
+        "order-system-4.png"
+      ]
+    },
+    "merchant-backend": {
+      "name": "店家訂單後台 App",
+      "year": "2020",
+      "tech": [
+        "Flutter",
+        "Payment"
+      ],
+      "category": "mobile",
+      "featured": false,
+      "short": "店家訂單管理後台，含營運分析、菜單編輯與提款功能。",
+      "description": "2019-2020 年開發的店家訂單管理後台，支援手機與平板 RWD 排版。提供待處理訂單、營運數據儀表板、菜單編輯（主餐/副餐）、廣告輪播管理、會員到店紀錄、信用卡綁定、營收提款等完整後台功能。",
+      "features": [
+        "營運數據儀表板",
+        "待處理訂單通知",
+        "菜單編輯管理",
+        "廣告輪播管理",
+        "會員到店紀錄",
+        "營收提款"
+      ],
+      "links": {},
+      "images": [
+        "merchant-backend-4.png",
+        "merchant-backend-1.png",
+        "merchant-backend-2.png",
+        "merchant-backend-3.png"
+      ]
+    },
+    "turnip-farmers": {
+      "name": "大頭菜農友會 App",
+      "year": "2020",
+      "tech": [
+        "Flutter",
+        "Firebase"
+      ],
+      "category": "mobile",
+      "featured": false,
+      "short": "動物森友會大頭菜交易社群 App，含排隊系統與即時聊天。",
+      "description": "2020 年上半年利用下班時間開發的動物森友會玩家社群 App。幫助玩家尋找高菜價島嶼，提供島主開島、訪客搜尋、排隊系統（含密碼通知）、即時聊天、好友追蹤與推播通知等社交功能。",
+      "features": [
+        "Apple/Facebook/Google 社群登入",
+        "島主資訊與開島管理",
+        "訪客搜尋島嶼",
+        "排隊系統與密碼通知",
+        "即時聊天",
+        "好友追蹤與推播通知",
+        "最新遊戲攻略"
+      ],
+      "links": {},
+      "images": [
+        "turnip-farmers-1.png",
+        "turnip-farmers-2.png",
+        "turnip-farmers-3.png",
+        "turnip-farmers-4.png"
+      ]
+    },
+    "cycleboxer": {
+      "name": "拳擊飛輪 CycleBoxer",
+      "year": "2018",
+      "tech": [
+        "React Native",
+        "Bluetooth",
+        "Hardware"
+      ],
+      "category": "mobile",
+      "featured": false,
+      "short": "結合拳擊沙包機與飛輪的健身 App，藍牙連動硬體設備。",
+      "description": "2018 年為新創運動器材公司開發的健身 App。結合拳擊沙包機與飛輪腳踏車的複合式運動器材，透過藍牙連接設備與心率帶，即時追蹤出拳準確度、運動進度與心率。支援運動歷史記錄、成績曲線分析、社群分享與韌體 OTA 更新。",
+      "features": [
+        "藍牙連接運動設備與心率帶",
+        "即時運動數據追蹤",
+        "運動歷史與成績曲線",
+        "社群分享",
+        "韌體 OTA 更新"
+      ],
+      "links": {},
+      "images": [
+        "cycleboxer-3.png",
+        "cycleboxer-1.png",
+        "cycleboxer-2.jpg"
+      ]
+    },
+    "chat-app": {
+      "name": "聊天軟體",
+      "year": "2015",
+      "tech": [
+        "iOS",
+        "Objective-C"
+      ],
+      "category": "mobile",
+      "featured": false,
+      "short": "iOS 原生聊天軟體，支援貼圖、群聊、照片塗鴉。",
+      "description": "2015 年開發，使用 iOS 原生 Objective-C 開發。可發送貼圖、群組聊天、照片塗鴉等功能。",
+      "features": [
+        "發送貼圖",
+        "群組聊天",
+        "照片塗鴉"
+      ],
+      "links": {},
+      "images": [
+        "chat-app.png"
+      ]
+    },
+    "bluetooth-watch": {
+      "name": "藍牙手錶",
+      "year": "2016",
+      "tech": [
+        "iOS",
+        "Swift",
+        "BLE"
+      ],
+      "category": "mobile",
+      "featured": false,
+      "short": "藍牙智慧手錶 App，協助 UI 開發。",
+      "description": "協助藍牙智慧手錶 App 的部分 UI 製作，使用 Swift 語言開發。",
+      "features": [],
+      "links": {},
+      "images": [
+        "bluetooth-watch.png"
+      ]
+    },
+    "camera-surveillance": {
+      "name": "攝影機監控 App",
+      "year": "2014",
+      "tech": [
+        "iOS",
+        "Objective-C"
+      ],
+      "category": "mobile",
+      "featured": false,
+      "short": "多攝影機連線控制與錄製功能的監控 App。",
+      "description": "2014 年 iOS App，採用 Objective-C 開發。攝影監控 App，支援各種攝影機連線控制錄製等功能。",
+      "features": [
+        "多攝影機連線",
+        "即時監控",
+        "錄影控制"
+      ],
+      "links": {},
+      "images": [
+        "camera-app.png"
+      ]
+    },
+    "sports-brand-web": {
+      "name": "運動品牌網站",
+      "year": "2025",
+      "tech": [
+        "Web",
+        "綠界金流",
+        "物流串接"
+      ],
+      "category": "web",
+      "featured": true,
+      "short": "健身課程預約與場地租借網站，串接綠界物流金流。",
+      "description": "運動品牌網站，提供健身課程預約與場地租借功能，整合綠界物流等功能。",
+      "features": [
+        "課程預約",
+        "場地租借",
+        "綠界金流整合",
+        "物流串接"
+      ],
+      "links": {},
+      "images": [
+        "sports-web.png"
+      ]
+    },
+    "crypto-signal": {
+      "name": "CryptoSignal 加密貨幣訊號",
+      "year": "2026",
+      "tech": ["Next.js", "TypeScript", "Web Push"],
+      "category": "web",
+      "featured": true,
+      "short": "即時加密貨幣交易訊號應用，多策略自動產生買賣建議。",
+      "description": "基於 Next.js + TypeScript 的即時加密貨幣交易訊號應用，監控 BTC 和 ETH 的價格走勢，透過多種策略自動產生買賣建議。",
+      "features": ["K 線圖表附帶訊號標記與指標明細", "即時推播通知，可按策略訂閱 Web Push", "瀏覽器內即時音效警報", "訊號歷史與勝率統計", "視覺化策略總覽卡片"],
+      "links": {},
+      "images": ["crypto-signal-2.png", "crypto-signal-1.png"]
+    },
+    "note-ai": {
+      "name": "Note AI 智慧筆記",
+      "year": "2026",
+      "tech": ["Next.js", "LLM", "AI"],
+      "category": "web",
+      "featured": true,
+      "short": "貼上連結自動產生結構化筆記，支援 YouTube 影片與網頁文章。",
+      "description": "「連結變筆記」系統，使用者只需提交 YouTube 影片或網頁 URL，系統即自動擷取內容，透過本地 LLM 進行分析，產出結構化筆記，並自動生成標籤與封面圖片，支援全文搜尋與標籤篩選。",
+      "features": ["非同步任務佇列，支援進度追蹤與自動重試", "AI 自動判斷內容類型（食譜 vs. 文章）", "自動標籤生成", "全文搜尋", "重複 URL 偵測"],
+      "links": {},
+      "images": ["note-ai-1.jpg", "note-ai-2.jpg", "note-ai-3.jpg", "note-ai-4.jpg", "note-ai-5.jpg"]
+    },
+    "kings-worrying": {
+      "name": "Number Hero 數字英雄",
+      "year": "2013",
+      "tech": [
+        "Cocos2D",
+        "遊戲開發"
+      ],
+      "category": "game",
+      "featured": false,
+      "short": "Cocos2D 數字消除遊戲，打敗怪物即勝利。",
+      "description": "2013 年開發的 Cocos2D 遊戲。主要是點擊數字讓數字增加，當 3 個數字一樣時可以消除增加主角的戰力，把怪物打敗後即勝利。",
+      "features": [
+        "數字消除機制",
+        "角色成長系統",
+        "怪物戰鬥"
+      ],
+      "links": {
+        "youtube": "https://youtu.be/U_eqcGYWa_s"
+      },
+      "images": [
+        "kings-worrying.png"
+      ]
+    }
+  }
+}

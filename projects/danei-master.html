@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>大內高手 門鎖專家 | Portfolio</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/project.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-container">
+      <a href="../index.html" class="nav-logo">Ossgo Wang</a>
+      <div class="nav-links">
+        <a href="../index.html#works" data-i18n="nav.works">作品</a>
+        <button class="lang-toggle" id="langToggle">EN</button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="project-page">
+    <div class="container">
+      <a href="../index.html#works" class="back-link" data-i18n="project.back">← 返回作品集</a>
+
+      <header class="project-header">
+        <h1 data-i18n="projects.danei-master.name">大內高手 門鎖專家</h1>
+        <div class="project-meta">
+          <span class="project-year">2025</span>
+          <div class="project-tech-tags">
+            <span class="work-card-tag">Flutter</span>
+            <span class="work-card-tag">LINE Login</span>
+            <span class="work-card-tag">Push Notification</span>
+          </div>
+        </div>
+      </header>
+
+      <section class="gallery-grid">
+        <img src="../assets/images/danei-orders.jpg" alt="大內高手 門鎖專家" onclick="openLightbox(this)">
+        <img src="../assets/images/danei-pending.jpg" alt="大內高手 門鎖專家" onclick="openLightbox(this)">
+        <img src="../assets/images/danei-history.jpg" alt="大內高手 門鎖專家" onclick="openLightbox(this)">
+        <img src="../assets/images/danei-schedule.jpg" alt="大內高手 門鎖專家" onclick="openLightbox(this)">
+        <img src="../assets/images/danei-notification.webp" alt="大內高手 門鎖專家" onclick="openLightbox(this)">
+        <img src="../assets/images/danei-verify.webp" alt="大內高手 門鎖專家" onclick="openLightbox(this)">
+      </section>
+
+      <section class="project-description">
+        <p data-i18n="projects.danei-master.description">「大內高手 門鎖專家」是一款專為鎖匠設計的派工應用程式。透過 LINE 登入，鎖匠師傅即時接收系統分配的工單通知，可立即安排是否接單、施工時間、並查閱施工內容與歷史紀錄。施工完成後，客戶可直接在 App 內進行驗收確認，提升服務效率。</p>
+      </section>
+
+      <section class="project-features">
+        <h3 data-i18n="project.features">功能特色</h3>
+        <ul>
+          <li>LINE 快速登入</li>
+          <li>即時派單通知與施工提醒</li>
+          <li>施工排程與紀錄管理</li>
+          <li>客戶驗收流程整合</li>
+        </ul>
+      </section>
+
+      <section class="project-links">
+        <a href="https://play.google.com/store/apps/details?id=com.danei343434.daneimaster" target="_blank" class="project-link-btn">Google Play</a>
+      </section>
+    </div>
+  </main>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-nav lightbox-prev" id="lightboxPrev" ><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg></button>
+    <img src="" alt="" id="lightboxImg">
+    <button class="lightbox-nav lightbox-next" id="lightboxNext" ><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 6 15 12 9 18"/></svg></button>
+    <span class="lightbox-counter" id="lightboxCounter"></span>
+  </div>
+
+  <script src="../js/i18n.js"></script>
+  <script src="../js/project.js"></script>
+</body>
+</html>

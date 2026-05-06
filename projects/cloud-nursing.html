@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>雲端護理站 App | Portfolio</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/project.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-container">
+      <a href="../index.html" class="nav-logo">Ossgo Wang</a>
+      <div class="nav-links">
+        <a href="../index.html#works" data-i18n="nav.works">作品</a>
+        <button class="lang-toggle" id="langToggle">EN</button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="project-page">
+    <div class="container">
+      <a href="../index.html#works" class="back-link" data-i18n="project.back">← 返回作品集</a>
+
+      <header class="project-header">
+        <h1 data-i18n="projects.cloud-nursing.name">雲端護理站 App</h1>
+        <div class="project-meta">
+          <span class="project-year">2022</span>
+          <div class="project-tech-tags">
+            <span class="work-card-tag">Flutter</span>
+            <span class="work-card-tag">AI</span>
+            <span class="work-card-tag">IoT</span>
+          </div>
+        </div>
+      </header>
+
+      <section class="project-gallery">
+        <div class="gallery-grid">
+          <img src="../assets/images/cloud-nursing-1.png" alt="Google Play 上架圖" loading="lazy" onclick="openLightbox(this)">
+          <img src="../assets/images/cloud-nursing-2.jpeg" alt="區域監控" loading="lazy" onclick="openLightbox(this)">
+          <img src="../assets/images/cloud-nursing-3.jpeg" alt="即時病患狀態" loading="lazy" onclick="openLightbox(this)">
+          <img src="../assets/images/cloud-nursing-4.jpeg" alt="通知警報" loading="lazy" onclick="openLightbox(this)">
+        </div>
+      </section>
+
+      <section class="project-description">
+        <p data-i18n="projects.cloud-nursing.description">2022 年開發的 AI 雲端護理站應用。透過熱成像技術即時監測病患狀態，提供跌倒偵測、離床警報、體溫/心率/呼吸異常通知。支援區域監控、歷史查詢、日常作息分析、多國語系切換等功能。</p>
+      </section>
+
+      <section class="project-features">
+        <h3 data-i18n="project.features">功能特色</h3>
+        <ul>
+          <li>區域監控（宮格/列表切換）</li>
+          <li>即時病患狀態與熱成像</li>
+          <li>1 小時歷史曲線圖</li>
+          <li>跌倒/離床/生命徵象警報</li>
+          <li>每床獨立通知設定</li>
+          <li>日常作息分析</li>
+          <li>多國語系</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-nav lightbox-prev" id="lightboxPrev" ><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg></button>
+    <img src="" alt="" id="lightboxImg">
+    <button class="lightbox-nav lightbox-next" id="lightboxNext" ><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 6 15 12 9 18"/></svg></button>
+    <span class="lightbox-counter" id="lightboxCounter"></span>
+  </div>
+
+  <script src="../js/i18n.js"></script>
+  <script src="../js/project.js"></script>
+</body>
+</html>
