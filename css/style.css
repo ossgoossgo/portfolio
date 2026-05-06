@@ -566,6 +566,10 @@ img {
     gap: 24px;
   }
 
+  .hero-portrait::before {
+    display: none;
+  }
+
   .hero-portrait img {
     max-height: 300px;
   }
