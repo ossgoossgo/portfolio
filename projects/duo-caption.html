@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DuoCaption Netflix 雙語字幕 | Ossgo Wang</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/project.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-container">
+      <a href="../index.html" class="nav-logo">Ossgo Wang</a>
+      <div class="nav-links">
+        <a href="../index.html#works" data-i18n="nav.works">作品</a>
+        <button class="lang-toggle" id="langToggle">EN</button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="project-page">
+    <div class="container">
+      <a href="../index.html#works" class="back-link" data-i18n="project.back">← 返回作品集</a>
+
+      <header class="project-header">
+        <h1 data-i18n="projects.duo-caption.name">DuoCaption Netflix 雙語字幕</h1>
+        <div class="project-meta">
+          <span class="project-year">2026</span>
+          <div class="project-tech-tags">
+            <span class="work-card-tag">Chrome Extension</span>
+            <span class="work-card-tag">TypeScript</span>
+            <span class="work-card-tag">React</span>
+          </div>
+        </div>
+      </header>
+
+      <section class="project-gallery">
+        <div class="gallery-grid">
+          <img src="../assets/images/duo-caption-1.png" alt="Netflix 雙語字幕（日中）" loading="lazy" onclick="openLightbox(this)">
+          <img src="../assets/images/duo-caption-2.png" alt="間隔複習頁面" loading="lazy" onclick="openLightbox(this)">
+          <img src="../assets/images/duo-caption-3.png" alt="所見即所得設定面板" loading="lazy" onclick="openLightbox(this)">
+          <img src="../assets/images/duo-caption-4.png" alt="Netflix 雙語字幕（韓中）" loading="lazy" onclick="openLightbox(this)">
+        </div>
+      </section>
+
+      <section class="project-description">
+        <p data-i18n="projects.duo-caption.description">DuoCaption 是一款在 Netflix 上顯示雙語字幕的 Chrome 擴充功能（Manifest V3）。透過攔截 Netflix 字幕軌道，將兩種語言並列顯示；滑鼠移到單字即暫停影片並顯示翻譯與發音，可收藏詞彙與句子、單句循環重複播放，並透過獨立的複習頁面以間隔複習法（SRS）鞏固記憶。介面支援 8 種語言。</p>
+      </section>
+
+      <section class="project-features">
+        <h3 data-i18n="project.features">功能特色</h3>
+        <ul>
+          <li>雙語字幕並列顯示（攔截 Netflix TTML 字幕軌道）</li>
+          <li>Hover 單字暫停影片，即時翻譯與發音</li>
+          <li>收藏詞彙／句子，單句循環重複播放</li>
+          <li>間隔複習（SRS）複習頁面與學習統計</li>
+          <li>可拖曳工具列與所見即所得設定面板</li>
+          <li>8 種語言介面（i18n）</li>
+        </ul>
+      </section>
+
+      <section class="project-links">
+        <a href="https://duocaption.com" target="_blank" class="project-link-btn">官方網站</a>
+      </section>
+    </div>
+  </main>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-nav lightbox-prev" id="lightboxPrev"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg></button>
+    <img src="" alt="" id="lightboxImg">
+    <button class="lightbox-nav lightbox-next" id="lightboxNext"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 6 15 12 9 18"/></svg></button>
+    <span class="lightbox-counter" id="lightboxCounter"></span>
+  </div>
+
+  <script src="../js/i18n.js"></script>
+  <script src="../js/project.js"></script>
+</body>
+</html>

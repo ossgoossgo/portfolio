@@ -67,6 +67,36 @@
     "features": "Features"
   },
   "projects": {
+    "duo-caption": {
+      "name": "DuoCaption — Netflix Bilingual Subtitles",
+      "year": "2026",
+      "tech": [
+        "Chrome Extension",
+        "TypeScript",
+        "React"
+      ],
+      "category": "web",
+      "featured": true,
+      "short": "A Chrome extension for bilingual Netflix subtitles — hover to translate, save sentences, and learn with spaced repetition.",
+      "description": "DuoCaption is a Chrome extension (Manifest V3) that displays bilingual subtitles on Netflix. It intercepts Netflix subtitle tracks to show two languages side by side; hovering a word pauses the video and reveals its translation and pronunciation. Users can save words and sentences, loop-replay a single line, and reinforce memory through a dedicated review page powered by spaced repetition (SRS). The interface supports 8 languages.",
+      "features": [
+        "Side-by-side bilingual subtitles (intercepts Netflix TTML tracks)",
+        "Hover a word to pause the video and see instant translation & pronunciation",
+        "Save words/sentences and loop-replay any single line",
+        "Spaced-repetition (SRS) review page with learning stats",
+        "Draggable toolbar and WYSIWYG settings panel",
+        "8-language interface (i18n)"
+      ],
+      "links": {
+        "website": "https://duocaption.com"
+      },
+      "images": [
+        "duo-caption-1.png",
+        "duo-caption-2.png",
+        "duo-caption-3.png",
+        "duo-caption-4.png"
+      ]
+    },
     "danei-master": {
       "name": "DaNei Master - Lock Expert",
       "year": "2025",
